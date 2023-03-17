@@ -10,7 +10,9 @@
       "defaultConfiguration": "production",
       "options": {
         "root": "apps/code-compass",
-        "outputPath": "dist/apps/code-compass"
+        "outputPath": "dist/apps/code-compass",
+        "postCssConfig": "apps/code-compass/postcss.config.js",
+        "tailwindConfig": "apps/code-compass/tailwind.config.js"
       },
       "configurations": {
         "development": {

@@ -1,18 +1,6 @@
-import { AppProps } from 'next/app';
-import Head from 'next/head';
-import './styles.css';
+import 'focus-visible'
+import '@/styles/tailwind.css'
 
-function CustomApp({ Component, pageProps }: AppProps) {
-  return (
-    <>
-      <Head>
-        <title>Welcome to code-compass!</title>
-      </Head>
-      <main className="app">
-        <Component {...pageProps} />
-      </main>
-    </>
-  );
+export default function App({ Component, pageProps }) {
+  return <Component {...pageProps} />
 }
-
-export default CustomApp;
