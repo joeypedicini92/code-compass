@@ -14,7 +14,7 @@ export function Contact() {
       className="scroll-mt-14 py-16 sm:scroll-mt-32 sm:py-20 lg:py-32"
     >
       <Container>
-        <SectionHeading number="4" id="get-started-title">
+        <SectionHeading number="3" id="get-started-title">
           Get Started
         </SectionHeading>
         <div className="isolate bg-white">

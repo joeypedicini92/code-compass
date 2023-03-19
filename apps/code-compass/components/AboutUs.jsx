@@ -25,7 +25,7 @@ export function AboutUs() {
             <div className="px-6 lg:contents">
               <div className="mx-auto max-w-2xl pt-16 pb-24 sm:pt-20 sm:pb-32 lg:mr-0 lg:ml-8 lg:w-full lg:max-w-lg lg:flex-none lg:pt-32 xl:w-1/2">
               <Container className="!lg:mx-[-3rem] !px-0">
-                <SectionHeading number="5" id="about-us-title">
+                <SectionHeading number="4" id="about-us-title">
                   About CodeCompass
                 </SectionHeading>
 

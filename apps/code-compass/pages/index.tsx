@@ -33,7 +33,7 @@ export default function Home() {
       <WhoWeServe />
       <NavBar />
       <OurServices />
-      <MeetOurMentees />
+      {/* <MeetOurMentees /> */}
       <HowItWorks />
       <Contact />
       <AboutUs />
