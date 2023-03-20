@@ -1,9 +1,12 @@
+import Script from 'next/script'
 import { Head, Html, Main, NextScript } from 'next/document'
 
 export default function Document() {
   return (
     <Html className="scroll-smooth bg-white antialiased" lang="en">
       <Head>
+        <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-2HLBYZP01T"></Script>
+        <Script id="google-analytics" strategy="afterInteractive" src="/scripts/tag-manager.js"></Script>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
