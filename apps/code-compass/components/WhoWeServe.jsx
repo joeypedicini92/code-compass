@@ -37,12 +37,10 @@ export function WhoWeServe() {
             Tailored Solutions for Your Unique Needs
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-          At CodeCompass, we understand that every individual and organization has distinct goals and challenges.
-          That&apos;s why we offer customized mentorship, recruitment, and project development services to cater to the specific requirements of aspiring developers, recruiters, managers, and businesses alike.
-          Discover how CodeCompass can help you achieve success in the software development industry.
+          At CodeCompass, we recognize that each project has its own set of objectives and hurdles. That’s why we provide tailor-made web and mobile application development services to address the specific needs of your venture. With a focus on efficiency and quality, our compact, skilled team is committed to turning your vision into a digital reality. Discover how CodeCompass can be the catalyst for your success in the tech landscape.
           </p>
         </div>
-        <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+        {/* <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
             {features.map((feature) => (
               <div key={feature.name} className="flex flex-col">
@@ -61,7 +59,7 @@ export function WhoWeServe() {
               </div>
             ))}
           </dl>
-        </div>
+        </div> */}
       </div>
     </div>
   )

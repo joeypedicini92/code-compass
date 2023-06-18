@@ -1,3 +1,19 @@
+/*
+Hi, I'm Joseph Pedicini, the founder of CodeCompass. My enduring passion for software development has evolved into a mission to empower businesses and individuals with stellar web and mobile applications.
+
+With over a decade of experience in the tech industry, I've been fortunate to work with a diverse spectrum of companies, ranging from agile startups to Fortune 500 giants. My expertise encompasses a plethora of programming languages and technologies including React, Angular, Ember.js, Node.js, Scala, Elixir, Postgres, AWS, Kubernetes, and Auth0.
+
+Throughout my career, I have donned multiple hats, from a Full Stack Application Developer at JPMorgan Chase & Co. to Senior Frontend Engineer at Amazon. This rich journey has imbued me with a profound understanding of what it takes to create impactful software solutions.
+
+At CodeCompass, we understand that each project carries its own set of aspirations and challenges. This is why our services are tailor-made to suit your specific requirements. Whether it’s a cutting-edge Progressive Web App, a simple yet effective web application, or reliable maintenance and support for your existing projects, our small but mighty team is committed to excellence.
+
+What sets CodeCompass apart is not just our technical prowess but also our dedication to the client’s vision. We believe in fostering strong relationships and being partners in your success.
+
+Let CodeCompass navigate you through the ever-evolving digital landscape with precision and commitment.
+
+Join hands with CodeCompass for a seamless and rewarding digital experience.
+*/
+
 import Image from 'next/image';
 import portrait from '@/images/resources/portrait.jpg';
 import { SectionHeading } from '@/components/SectionHeading';
@@ -30,52 +46,31 @@ export function AboutUs() {
                 </SectionHeading>
 
                 <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                  Your Trusted Mentor in Software Development
+                Empowering Your Digital Journey with CodeCompass
                 </h1>
                 <p className="mt-6 text-xl leading-8 text-gray-700">
-                  Hi, I&apos;m Joseph Pedicini, the founder of CodeCompass. My
-                  passion for software development and mentorship has driven me
-                  to create this platform to help aspiring developers achieve
-                  their dreams.
+                Hi, I'm Joseph Pedicini, the founder of CodeCompass. My enduring passion for software development has evolved into a mission to empower businesses and individuals with stellar web and mobile applications.
                 </p>
                 <div className="mt-10 max-w-xl text-base leading-7 text-gray-700 lg:max-w-none">
                   <p className="mt-6 text-xl leading-8 text-gray-700">
-                    As a software developer with over 10 years of experience, I
-                    have worked with a diverse range of companies, from startups
-                    to Fortune 500 organizations. My expertise spans multiple
-                    programming languages and technologies such as React,
-                    Angular, Ember.js, Node.js, Scala, Elixir, Postgres, AWS,
-                    Kubernetes, and Auth0.
+                  With over a decade of experience in the tech industry, I've been fortunate to work with a diverse spectrum of companies, ranging from agile startups to Fortune 500 giants. My expertise encompasses a plethora of programming languages and technologies including React, Angular, Ember.js, Node.js, Scala, Elixir, Postgres, AWS, Kubernetes, and Auth0.
+
                   </p>
                   <p className="mt-6 text-xl leading-8 text-gray-700">
-                    During my career, I have held various roles, from Full Stack
-                    Application Developer at JPMorgan Chase & Co. to Senior
-                    Frontend Engineer at Amazon. This has given me a deep
-                    understanding of the skills and knowledge required to excel
-                    in the software development industry. My background also
-                    includes experience in interviewing, hiring, and mentoring
-                    new developers, which allows me to provide valuable insights
-                    on how to make the transition from student to professional
-                    developer.{' '}
+                  Throughout my career, I have donned multiple hats, from a Full Stack Application Developer at JPMorgan Chase & Co. to Senior Frontend Engineer at Amazon. This rich journey has imbued me with a profound understanding of what it takes to create impactful software solutions.
+
                   </p>
                   <p className="mt-6 text-xl leading-8 text-gray-700">
-                    As a mentor, my primary focus is on the success and growth
-                    of my mentees. I tailor my mentorship approach to each
-                    individual&apos;s unique needs and goals, helping them to
-                    build the necessary skills and confidence to succeed in the
-                    software development industry. My mentees benefit from my
-                    wealth of knowledge, practical experience, and commitment to
-                    their success.{' '}
+                  At CodeCompass, we understand that each project carries its own set of aspirations and challenges. This is why our services are tailor-made to suit your specific requirements. Whether it’s a cutting-edge Progressive Web App, a simple yet effective web application, or reliable maintenance and support for your existing projects, our small but mighty team is committed to excellence.
+
                   </p>
                   <p className="mt-6 text-xl leading-8 text-gray-700">
-                    By choosing CodeCompass as your mentor, you will receive
-                    personalized guidance, support, and encouragement every step
-                    of the way on your journey to becoming a skilled and
-                    confident software developer.{' '}
+                  What sets CodeCompass apart is not just our technical prowess but also our dedication to the client’s vision. We believe in fostering strong relationships and being partners in your success.
+
                   </p>
                   <p className="mt-6 text-xl leading-8 text-gray-700">
-                    Let CodeCompass be your guiding star towards a successful
-                    career in software development.{' '}
+                  Let CodeCompass navigate you through the ever-evolving digital landscape with precision and commitment.
+
                   </p>
                 </div>
                 </Container>

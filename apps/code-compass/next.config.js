@@ -16,6 +16,16 @@ const nextConfig = {
   experimental: {
     scrollRestoration: true,
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'bonjournl.com',
+        port: '',
+        pathname: '/*/**',
+      },
+    ],
+  },
 };
 
 module.exports = withNx(nextConfig);

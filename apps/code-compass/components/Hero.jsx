@@ -84,10 +84,10 @@ export function Hero() {
               <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                 <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
                   <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                    Empower Your Software Development Career with CodeCompass.
+                  Empower Your Digital Journey with CodeCompass.
                   </h1>
                   <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-                  CodeCompass provides personalized mentorship and career guidance for aspiring and established software developers. Our tailored approach helps you build valuable skills, create impactful projects, and land your dream job in the tech industry.
+                  We're a dedicated team specializing in web and mobile application development. Simple, efficient, and tailored to your needs.
                   </p>
                   <div className="mt-10 flex items-center gap-x-6">
                     <a

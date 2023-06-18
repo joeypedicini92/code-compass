@@ -4,45 +4,24 @@ import { Container } from '@/components/Container';
 
 const features = [
   {
-    name: 'Personalized Mentorship',
+    name: 'Progressive Web Apps (PWAs)',
     description:
-      'Receive one-on-one guidance tailored to your unique situation, interests, and goals, ensuring you gain the most relevant skills and knowledge to excel in your software development career.',
+      'We specialize in building PWAs which offer the best of web and mobile apps. These can be seamlessly deployed to both Apple and Google stores, ensuring a wider reach.',
   },
   {
-    name: 'Project Guidance',
+    name: 'Simple Web Applications',
     description:
-      'Work on practical, real-world projects that align with your interests, allowing you to build a strong portfolio while developing valuable experience and problem-solving skills.',
+      'For projects that require a more straightforward approach, we craft simple, yet effective web applications tailored to your specific needs.',
   },
   {
-    name: 'Resume Review',
+    name: 'Comprehensive Web Support',
     description:
-      'Enhance your resume with expert feedback and recommendations, making sure it effectively showcases your skills and experiences to catch the attention of potential employers.',
+      `Whether it's a platform we've developed or an existing one, CodeCompass is here to provide robust support for any web project, ensuring optimal performance and continued growth.`,
   },
   {
-    name: 'LinkedIn Optimization',
-    description:
-      'Boost your online presence with a professionally-reviewed LinkedIn profile, ensuring it highlights your strengths and achievements while expanding your network within the tech industry.',
-  },
-  {
-    name: 'Interview Preparation',
-    description:
-      'Master the art of technical and behavioral interviews with mock sessions, personalized feedback, and proven strategies that give you the confidence to succeed.',
-  },
-  {
-    name: 'Job Search Assistance',
-    description:
-      'Navigate the job market with ease using our personalized support, helping you identify suitable opportunities, apply effectively, and secure the perfect role.',
-  },
-  {
-    name: 'Skill Development',
-    description:
-      'Stay ahead of the curve by continuously enhancing your software development skills with guidance on the latest tools, frameworks, and industry best practices.',
-  },
-  {
-    name: 'Networking and Industry Insights',
-    description:
-      'Expand your professional network and stay informed about the latest trends, opportunities, and events in the software development world with valuable tips and resources from CodeCompass.',
-  },
+    name: 'Performance and User Experience Optimization',
+    description: `Our development process emphasizes optimizing performance and user experience, ensuring that your applications are fast, responsive, and delightful to use.`,
+  }
 ];
 
 export function OurServices() {
@@ -60,14 +39,10 @@ export function OurServices() {
         <div className="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:grid-cols-3">
           <div>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Comprehensive support
+              Customized Solutions Tailored for Your Success
             </p>
             <p className="mt-6 text-base leading-7 text-gray-600">
-              CodeCompass offers an extensive suite of services designed to
-              support your growth and success in the software development
-              industry. From personalized mentorship to job search assistance,
-              our expert guidance equips you with the tools, skills, and
-              confidence needed to thrive in your career.
+            CodeCompass offers a focused range of services to build and support your web and mobile applications. Our agile team is dedicated to providing streamlined solutions that empower your digital journey.
             </p>
           </div>
           <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:gap-y-16">

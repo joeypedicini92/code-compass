@@ -9,6 +9,7 @@ import { Pricing } from '../components/Pricing';
 import { HowItWorks } from '../components/HowItWorks';
 import { MeetOurMentees } from '../components/MeetOurMentees';
 import { OurServices } from '../components/OurServices';
+import { OurProjects } from '@/components/OurProjects';
 
 export default function Home() {
   return (
@@ -22,6 +23,8 @@ export default function Home() {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"></link>
         <link rel="manifest" href="/site.webmanifest"></link>
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"></link>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+
         <meta name="msapplication-TileColor" content="#da532c"></meta>
         <meta name="theme-color" content="#ffffff"></meta>
         <meta
@@ -30,11 +33,12 @@ export default function Home() {
         />
       </Head>
       <Hero />
-      <WhoWeServe />
+      {/* <WhoWeServe /> */}
       <NavBar />
       <OurServices />
       {/* <MeetOurMentees /> */}
-      <HowItWorks />
+      {/* <HowItWorks /> */}
+      <OurProjects />
       <Contact />
       <AboutUs />
       <Footer />

@@ -14,7 +14,7 @@ const sections = [
     ),
   },
   // { id: 'meet-our-mentees', title: 'Meet Our Mentees' },
-  { id: 'how-it-works', title: 'How it Works' },
+  { id: 'our-projects', title: 'Our Projects' },
   { id: 'get-started', title: 'Get Started' },
   { id: 'about-us', title: 'About Us' },
 ]
